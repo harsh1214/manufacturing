@@ -1,0 +1,70 @@
+body {
+    position: relative;
+}
+
+.hero-moving-container {
+    width: 100vw;
+}
+
+.hero-moving-text {
+    animation: scrollHero 14s infinite linear;
+}
+
+@keyframes scrollHero {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+/* .hero-content::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    background-image: url('../assets/icons/6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.looping-wrapper div.el {
+    transform-origin: 50% 100%;
+    width: 2px;
+    height: 24vh;
+    background-color: #BEFF01;
+    margin-top: -18vh;
+    position: absolute;
+}
+
+/* #aboutImageContainer{
+    background-image: url('../assets/images/about.webp');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.scroll-btn {
+    animation: hoverScreen 2s ease infinite;
+}
+
+@keyframes hoverScreen {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}

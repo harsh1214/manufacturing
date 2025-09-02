@@ -1,0 +1,7 @@
+.awards-bg{
+    /* background-image: url('../assets/images/awards-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: linear-gradient(90deg, #ccc 0%, #fff  20%, #fff 80%, #ccc 100%);
+}
